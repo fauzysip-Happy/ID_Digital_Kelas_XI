@@ -1,35 +1,32 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #e6f4ea, #c8e6c9);
-    margin: 0;
-    padding: 0;
+    background: linear-gradient(to bottom, #e8f5e9, #ffffff);
 }
-
 .id-card {
-    width: 480px;
-    margin: 30px auto;
+    width: 420px;
+    margin: 20px auto;
     background: white;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
 }
-
 .header {
     width: 100%;
-    margin-bottom: 15px;
+    max-width: 400px;
+    margin-bottom: 10px;
 }
-
 .foto {
-    width: 160px;
+    width: 150px;
     height: auto;
-    margin: 15px 0;
+    margin: 10px 0;
     border-radius: 10px;
-    border: 2px solid #4CAF50;
+    border: 2px solid #4caf50;
 }
-
 .qr {
-    width: 130px;
+    width: 120px;
     margin-top: 15px;
 }
+p { text-align: left; margin: 5px 20px; }
+p b { display: inline-block; width: 150px; }
